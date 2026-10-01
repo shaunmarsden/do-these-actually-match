@@ -22,9 +22,17 @@
 
 [Every row where the two records disagree on a fact, once presentation differences are resolved]
 
+## Could Not Confidently Match
+
+[Rows that might correspond to something in the other record, where the evidence is not strong enough to say so. Do not force these into a match or into "only in one record"]
+
 ## Only in One Record
 
 [Rows present in one source and not found in the other, without assuming that is an error]
+
+## Agrees
+
+[Rows with the same fact in both records, once presentation differences are resolved]
 
 ## Presentation Differences Resolved, Not Reported as Mismatches
 
