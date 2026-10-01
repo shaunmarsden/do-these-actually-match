@@ -22,6 +22,8 @@ Every suggested follow-up names a specific action and a specific person to check
 
 ## What Needed Checking
 
+The output has three small slips. Its matching notes name the wrong pair: "Marcus Oduya and Jamie Whitcombe" should read "J. Whitcombe and Jamie Whitcombe", which the detailed section gets right. It says Tomasz made "a payment made today", but the export gives only an export date of today, not a payment date. And it says the two Whitcombe emails "share no common part", when both are at fernmail.example. None of the three changes a classification.
+
 This evidence alone can't settle whether J. Whitcombe and Jamie Whitcombe are the same person. A real version of this comparison would need to ask the club secretary. The output leaves that as a step for a person, which is right.
 
 This is still one fictional run. A real membership and payment reconciliation will probably have more than one unclear name at once. This example has only one, to keep it readable.

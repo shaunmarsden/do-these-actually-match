@@ -40,7 +40,7 @@ Copy [SKILL.md](SKILL.md), paste it into your AI tool (ChatGPT, Claude, Gemini o
 
 </details>
 
-[The worked example](example/) is a fictional hardware shop's stock count against its till export. It has a unit conversion, a formatting difference, a delivery not yet logged and an incomplete count, all at once. [The second worked example](example-two/) is harder. It has a name that looks like a match but can't be confirmed, a duplicated payment row, and a real conflict over a member's status.
+[The worked example](example/) is a fictional hardware shop's stock count against its till export. It has a unit conversion, a formatting difference, a delivery not yet logged, an incomplete count and two real conflicts, all at once. [The second worked example](example-two/) is harder. It has a name that looks like a match but can't be confirmed, a duplicated payment row, and a real conflict over a member's status.
 
 Use [the blank template](templates/reconciliation-template.md) for your own comparison, and [the review checklist](checks/checklist.md) before you act on anything it finds.
 
