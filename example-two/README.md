@@ -1,8 +1,8 @@
 # Second Worked Example: A Harder Case
 
-A fictional running club's membership spreadsheet against its payment processor's export, captured three weeks apart, built to test a mismatched identifier that looks plausible but cannot be confirmed, a duplicated payment row that has to be resolved before comparison, a genuine status conflict, and a name that appears in only one record with a real gap in capture dates to account for.
+A fictional running club's membership spreadsheet against its payment processor's export, taken three weeks apart. I built it to test harder traps. One name looks like a match but can't be confirmed. One payment row is duplicated and has to be sorted out before comparing. One member's status is in real conflict. And one name is in only one record, with a real gap between the two capture dates to account for.
 
 - [membership-spreadsheet.md](membership-spreadsheet.md): the club's own record as given
 - [payment-processor-export.md](payment-processor-export.md): the payment processor's export as given
 - [output.md](output.md): the reconciliation [SKILL.md](../SKILL.md) produces
-- [review.md](review.md): whether each harder trap was correctly told apart from the others
+- [review.md](review.md): whether it told each harder trap apart from the others

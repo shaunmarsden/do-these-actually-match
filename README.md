@@ -5,56 +5,60 @@
   <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-lightgrey"></a>
 </p>
 
-Compare two independently-kept records of the same thing and surface only where they genuinely disagree, instead of a full side-by-side or picking whichever source seems more convenient.
+Compare two records of the same thing, kept separately, and see only where they really disagree. You don't get a full side-by-side, and it doesn't pick whichever source is easier.
 
 ## Why
 
-Two records that are each supposed to reflect the same reality drift apart more often than anyone checks: a manual count against a system export, one team's spreadsheet against another's, a membership list against who has actually paid. Eyeballing them either misses a real disagreement buried in a wall of near-identical rows, or invents one out of two different ways of writing the same fact, a unit conversion, a rounding difference, a date format.
+Two records of the same thing drift apart more often than anyone checks: a hand count against a system export, one team's spreadsheet against another's, a membership list against who has paid.
 
-This generalises a rule that already sits at the centre of [Practical AI Sales Workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows): when two approved sources disagree, [the method](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/METHODOLOGY.md) says show the disagreement rather than quietly picking one, and the [approval-gated sales copilot](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/guides/build-an-approval-gated-sales-copilot.md) gives that idea its own label, Conflicting, precisely because folding it into a generic Unknown loses the fact that two sources actively disagree rather than one being silent. This tool is that same judgement call, pulled out on its own for the much more common case of two whole records that are supposed to match.
+Checking them by eye goes wrong in two ways. You miss a real disagreement hidden among near-identical rows. Or you see one where the same fact is only written two ways: a unit conversion, a rounding difference, a date format.
+
+This takes a rule from [Practical AI Sales Workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) and uses it outside sales. When two approved sources disagree, [the method](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/METHODOLOGY.md) says show the disagreement rather than quietly pick one. The [approval-gated sales copilot](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/guides/build-an-approval-gated-sales-copilot.md) gives it its own label, Conflicting. Lumping it in with Unknown would hide that two sources disagree, rather than one saying nothing.
+
+This tool makes the same call for a more common case: two whole records that should match.
 
 [![Four boxes showing the possible outcomes of comparing two records: Agrees, Genuinely conflicting, Only in one record, and Could not confidently match.](assets/diagrams/01-do-these-actually-match.svg)](SKILL.md)
 
 ## Use It
 
-Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemini, or similar), then paste in both records. It produces:
+Copy [SKILL.md](SKILL.md), paste it into your AI tool (ChatGPT, Claude, Gemini or similar), then paste in both records. It sorts what it finds into four groups:
 
-- **Agrees**, the same fact once presentation differences are resolved
-- **Genuinely conflicting**, a real disagreement, with no guess at which source is right
-- **Only in one record**, present in one source and not found in the other, without assuming that means an error
-- **Could not confidently match**, a plausible pairing the evidence cannot actually confirm, left open rather than forced either way
+- Agrees: the same fact, once differences in how it's written are cleared up
+- Genuinely conflicting: a real disagreement, with no guess at which source is right
+- Only in one record: in one source and not the other, without assuming that's an error
+- Could not confidently match: a likely pairing the evidence can't confirm, left open rather than forced either way
 
 <details>
-<summary><strong>See exactly what it produces</strong></summary>
+<summary><strong>See what it produces</strong></summary>
 
-1. What each record represents, and as of when, including any meaningful gap between when the two were captured
-2. How rows were matched across the two records, and which ones could not be matched at all
-3. Every genuine disagreement, stated plainly with no guess at a cause
-4. Every row present in only one record, kept separate from genuine disagreements
-5. Presentation differences resolved and named, not silently dropped or wrongly reported as mismatches
-6. Suggested follow-up for a person to approve, never a decision already made
+1. What each record covers and when it was taken, including any real gap between the two
+2. How it matched rows across the two records, and which it couldn't match at all
+3. Every real disagreement, stated plainly, with no guess at a cause
+4. Every row that's in only one record, kept apart from the disagreements
+5. Differences in how things are written, resolved and named, not dropped or wrongly reported as mismatches
+6. Suggested next steps for a person to approve, never a decision already made
 
 </details>
 
-See [the worked example](example/): a fictional hardware shop's physical stock count against its point-of-sale export, with a unit conversion, a formatting difference, a new delivery not yet logged, and an incomplete count all in play at once. For a harder case, a mismatched identifier that looks plausible but cannot be confirmed, a duplicated payment row, and a genuine status conflict, read [the second worked example](example-two/).
+[The worked example](example/) is a fictional hardware shop's stock count against its till export. It has a unit conversion, a formatting difference, a delivery not yet logged and an incomplete count, all at once. [The second worked example](example-two/) is harder. It has a name that looks like a match but can't be confirmed, a duplicated payment row, and a real conflict over a member's status.
 
-Use [the blank template](templates/reconciliation-template.md) for your own comparison, and [the review checklist](checks/checklist.md) before acting on any finding.
+Use [the blank template](templates/reconciliation-template.md) for your own comparison, and [the review checklist](checks/checklist.md) before you act on anything it finds.
 
-No installation, project, or coding required to try it once.
+You don't need to install anything, set up a project or write code to try it.
 
 ## Before You Use It
 
-This reports where two records agree, disagree, or could not be matched. It does not decide which record is correct, or what to do about a genuine disagreement. That call, and any resulting correction, stays yours.
+This reports where two records agree, disagree or couldn't be matched. It doesn't decide which record is right, or what to do about a disagreement. That call, and any fix, is yours.
 
 ## Not the Same As
 
-- [Claims vs Evidence Checker](https://github.com/shaunmarsden/claims-vs-evidence-checker) checks whether one document's own claims are actually backed by evidence inside that same document. This tool needs two independent records to begin with.
-- [Is This Really a Pattern?](https://github.com/shaunmarsden/is-this-really-a-pattern) looks for a genuine repeated cause across many similar entries in one log. This tool compares exactly two records against each other, not many entries against themselves.
+- [Claims vs Evidence Checker](https://github.com/shaunmarsden/claims-vs-evidence-checker) checks whether one document's claims are backed by evidence in that same document. This tool needs two separate records to start with.
+- [Is This Really a Pattern?](https://github.com/shaunmarsden/is-this-really-a-pattern) looks for a real repeated cause across many similar entries in one log. This tool compares two records with each other, not the entries within one.
 
 ## Feedback
 
-Used it on a real reconciliation? [Start a discussion](https://github.com/shaunmarsden/do-these-actually-match/discussions) if a match or a mismatch did not fit.
+Used it on a real reconciliation? [Start a discussion](https://github.com/shaunmarsden/do-these-actually-match/discussions) if a match or mismatch didn't fit.
 
 ## Part of a Family
 
-This is one of a family of free tools generalising [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) patterns beyond sales. See [sibling-projects](https://github.com/shaunmarsden/sibling-projects) for the rest. Not sure which one actually fits? Try [the interactive picker](https://shaunmarsden.github.io/sibling-projects/) for clickable cards, or [the router](https://github.com/shaunmarsden/sibling-projects/blob/main/ROUTER.md) if you would rather paste a description into an AI chat.
+This is one of a family of free tools that take patterns from [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) beyond sales. [sibling-projects](https://github.com/shaunmarsden/sibling-projects) lists the rest. Not sure which one fits? Try [the interactive picker](https://shaunmarsden.github.io/sibling-projects/), which shows clickable cards, or paste a description into an AI chat with [the router](https://github.com/shaunmarsden/sibling-projects/blob/main/ROUTER.md).

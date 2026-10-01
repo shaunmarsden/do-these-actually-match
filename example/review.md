@@ -1,26 +1,33 @@
 # Review: Kestrel Hardware Stock Reconciliation
 
-This checks the [output](output.md) against the deliberate traps built into [the physical count](physical-count.md) and [the POS export](pos-system-export.md).
+I checked the [output](output.md) against the traps I built into [the physical count](physical-count.md) and [the POS export](pos-system-export.md).
 
 ## Did It Catch the Traps?
 
-- **The unit-of-measure trap (Wood Screws 40mm).** 3 boxes of 200 versus 600 individual screws looks like a huge disagreement at a glance. The output correctly converted units before comparing and resolved it as agreeing, not as a conflict.
-- **The formatting trap (Masonry Drill Bit 8mm).** 12 versus 12.0 is the same value. The output correctly resolved this without reporting it as a mismatch, and without silently ignoring it either; it is named explicitly as a resolved presentation difference.
-- **The new-delivery trap (Cordless Screwdriver Bit Set).** Present in the physical count only, because it had not yet been logged into the till. The output correctly reported this as "only in one record," not as a conflict, and correctly explained why rather than treating the till as simply wrong.
-- **The incomplete-count trap (Fence Post Caps).** Present in the POS export only, because the counter never reached that shelf. The output correctly avoided implying the physical stock is actually zero or missing, and named the count itself as incomplete for this item.
-- **The two genuine conflicts (Galvanised Hinges 75mm, Paint Brushes 2 inch).** Real gaps in opposite directions, with no unit or formatting explanation available. The output reported both plainly, stated the size and direction of each gap, and did not guess a cause for either.
+The units trap, Wood Screws 40mm. At a glance, 3 boxes of 200 against 600 single screws looks like a big disagreement. The output converted the units before comparing and found they agree.
+
+The formatting trap, Masonry Drill Bit 8mm. 12 and 12.0 are the same value. The output didn't report this as a mismatch, and didn't quietly ignore it either. It named it as a presentation difference it had resolved.
+
+The new-delivery trap, Cordless Screwdriver Bit Set. This is in the physical count only, because nobody had logged it into the till yet. The output reported it as "only in one record," not as a conflict. It also explained why, rather than treating the till as simply wrong.
+
+The incomplete-count trap, Fence Post Caps. This is in the POS export only, because the counter never reached that shelf. The output didn't suggest the stock is zero or missing. It said the count was incomplete for this item.
+
+The two real conflicts, Galvanised Hinges 75mm and Paint Brushes 2 inch. These are real gaps in opposite directions, with no units or formatting to explain them. The output reported both plainly, gave the size and direction of each gap, and didn't guess a cause for either.
 
 ## What Worked
 
-- Every one of the five traps was classified correctly and none were merged into a single generic "these do not match" statement.
-- The output never states which record is correct, only that a gap exists and how large it is.
-- The "what this comparison cannot tell you" section is honest about not knowing why the two genuine conflicts exist.
+It sorted all five traps correctly. It didn't lump any of them into one general "these do not match" statement.
+
+It never says which record is right, only that there's a gap and how big it is.
+
+Its "what this comparison cannot tell you" section admits it doesn't know why the two conflicts exist.
 
 ## What Needed Checking
 
-- The suggested recount for the two genuinely conflicting items is a sensible next step, but it is presented as a suggestion, not an instruction; a person still decides whether to act on it.
-- This is one fictional run. It has not been tested against a real reconciliation, and a real one is likely to have messier identifiers than this deliberately clean example.
+The suggested recount for the two conflicting items is a sensible next step. It's offered as a suggestion, not an instruction, so a person still decides whether to act on it.
+
+This is one fictional run. I haven't tested it on a real reconciliation, and a real one will probably have messier names and codes than this deliberately clean example.
 
 ## Next Test
 
-Use a harder case with mismatched identifiers between the two records, a meaningful gap between when each record was captured, and a duplicated line in one source that has to be resolved before any comparison is possible. See [the second worked example](../example-two/) for that case.
+Try a harder case. Give it names or codes that don't match between the two records, and a real gap between when each was taken. Add a duplicated line in one source that has to be sorted out before you can compare. [The second worked example](../example-two/) is that case.
