@@ -8,7 +8,7 @@ Membership Spreadsheet: the club secretary's record of who is an active or lapse
 
 ## Matching Notes
 
-Three rows matched directly on name and email. One pairing looks plausible by name alone, Marcus Oduya and Jamie Whitcombe, but the email addresses do not agree closely enough to treat as confirmed for Whitcombe; that one is reported as a possible match, not a confirmed one. The payment export contains two separate rows for Marcus Oduya with identical name and email; these were treated as one matched member with two payments this cycle, not two different people.
+Three rows matched directly on name and email. One pairing looks plausible by name alone, J. Whitcombe and Jamie Whitcombe, but the email addresses do not agree closely enough to treat as confirmed; that one is reported as a possible match, not a confirmed one. The payment export contains two separate rows for Marcus Oduya with identical name and email; these were treated as one matched member with two payments this cycle, not two different people.
 
 ## Summary
 
@@ -21,11 +21,11 @@ Three rows matched directly on name and email. One pairing looks plausible by na
 
 ## Genuinely Conflicting
 
-- **Tomasz Kowalski.** Membership spreadsheet: Lapsed. Payment processor: a payment made today. These directly disagree about current status. This could mean the spreadsheet is out of date, or that Tomasz has just rejoined; the evidence here does not say which.
+- **Tomasz Kowalski.** Membership spreadsheet: Lapsed. Payment processor: a payment recorded in today's export. These directly disagree about current status. This could mean the spreadsheet is out of date, or that Tomasz has just rejoined; the evidence here does not say which.
 
 ## Could Not Confidently Match
 
-- **J. Whitcombe (spreadsheet) and Jamie Whitcombe (payment).** The names are similar enough to plausibly be the same person, but the email addresses share no common part (j.whitcombe@fernmail.example versus jamie.w.runs@fernmail.example) and nothing else in either record confirms they are the same. Treating this as a match, or as two unrelated people, would both be guesses. A person should confirm this directly before either record is corrected.
+- **J. Whitcombe (spreadsheet) and Jamie Whitcombe (payment).** The names are similar enough to plausibly be the same person, but the email addresses share only the domain, with no matching local part (j.whitcombe@fernmail.example versus jamie.w.runs@fernmail.example), and nothing else in either record confirms they are the same. Treating this as a match, or as two unrelated people, would both be guesses. A person should confirm this directly before either record is corrected.
 
 ## Only in One Record
 
