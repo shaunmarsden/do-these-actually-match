@@ -33,7 +33,7 @@ Three rows matched directly on name and email. One pairing looks plausible by na
 
 ## Agrees
 
-- **Priya Nazari.** Matches on name and email; Active status is consistent with a payment having been made.
+- **Beatrix Winslow.** Matches on name and email; Active status is consistent with a payment having been made.
 - **Marcus Oduya.** Matches on name and email; Active status is consistent with payment activity. Two separate payment rows were found for this one member; that is noted below, not treated as a second discrepancy.
 
 ## Presentation Differences Resolved, Not Reported as Mismatches

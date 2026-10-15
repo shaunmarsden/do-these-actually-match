@@ -6,7 +6,7 @@ Exported from the payment processor today, three weeks after the membership spre
 
 | Name on Payment | Email | Amount | Status |
 | --- | --- | ---: | --- |
-| Priya Nazari | priya.n@fernmail.example | £15 | Paid |
+| Beatrix Winslow | beatrix.w@fernmail.example | £15 | Paid |
 | Jamie Whitcombe | jamie.w.runs@fernmail.example | £15 | Paid |
 | Marcus Oduya | marcus.oduya@fernmail.example | £15 | Paid |
 | Marcus Oduya | marcus.oduya@fernmail.example | £15 | Paid |

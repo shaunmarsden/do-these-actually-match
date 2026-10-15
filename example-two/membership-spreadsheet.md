@@ -6,7 +6,7 @@ Kept by the club secretary, last updated three weeks ago.
 
 | Name | Email | Status |
 | --- | --- | --- |
-| Priya Nazari | priya.n@fernmail.example | Active |
+| Beatrix Winslow | beatrix.w@fernmail.example | Active |
 | J. Whitcombe | j.whitcombe@fernmail.example | Active |
 | Marcus Oduya | marcus.oduya@fernmail.example | Active |
 | Tomasz Kowalski | tomasz.k@fernmail.example | Lapsed |
