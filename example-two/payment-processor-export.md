@@ -10,7 +10,7 @@ Exported from the payment processor today, three weeks after the membership spre
 | Jamie Whitcombe | jamie.w.runs@fernmail.example | £15 | Paid |
 | Felix Oduya | felix.oduya@fernmail.example | £15 | Paid |
 | Felix Oduya | felix.oduya@fernmail.example | £15 | Paid |
-| Tomasz Kowalski | tomasz.k@fernmail.example | £15 | Paid |
+| Fergus Penrose | tomasz.k@fernmail.example | £15 | Paid |
 | Helena Byrne | helena.byrne@fernmail.example | £15 | Paid |
 
 Felix Oduya has two separate payments this cycle; the processor does not explain why.
