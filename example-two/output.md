@@ -8,7 +8,7 @@ Membership Spreadsheet: the club secretary's record of who is an active or lapse
 
 ## Matching Notes
 
-Three rows matched directly on name and email. One pairing looks plausible by name alone, J. Whitcombe and Jamie Whitcombe, but the email addresses do not agree closely enough to treat as confirmed; that one is reported as a possible match, not a confirmed one. The payment export contains two separate rows for Marcus Oduya with identical name and email; these were treated as one matched member with two payments this cycle, not two different people.
+Three rows matched directly on name and email. One pairing looks plausible by name alone, J. Whitcombe and Jamie Whitcombe, but the email addresses do not agree closely enough to treat as confirmed; that one is reported as a possible match, not a confirmed one. The payment export contains two separate rows for Felix Oduya with identical name and email; these were treated as one matched member with two payments this cycle, not two different people.
 
 ## Summary
 
@@ -34,19 +34,19 @@ Three rows matched directly on name and email. One pairing looks plausible by na
 ## Agrees
 
 - **Beatrix Winslow.** Matches on name and email; Active status is consistent with a payment having been made.
-- **Marcus Oduya.** Matches on name and email; Active status is consistent with payment activity. Two separate payment rows were found for this one member; that is noted below, not treated as a second discrepancy.
+- **Felix Oduya.** Matches on name and email; Active status is consistent with payment activity. Two separate payment rows were found for this one member; that is noted below, not treated as a second discrepancy.
 
 ## Presentation Differences Resolved, Not Reported as Mismatches
 
-None in this comparison. The one unusual detail, Marcus Oduya's duplicated payment row, is not a disagreement between the two records; it is an internal duplicate within the payment export, resolved before comparison rather than reported as a mismatch.
+None in this comparison. The one unusual detail, Felix Oduya's duplicated payment row, is not a disagreement between the two records; it is an internal duplicate within the payment export, resolved before comparison rather than reported as a mismatch.
 
 ## Suggested Follow-Up for Human Approval
 
 - Ask Tomasz Kowalski directly whether he intends to rejoin, and update whichever record is out of date once that is confirmed.
 - Confirm with the club secretary whether Jamie Whitcombe is the same person as J. Whitcombe before changing either record.
 - Confirm whether Helena Byrne is a new member and, if so, add her to the membership spreadsheet.
-- Check why Marcus Oduya has two payments this cycle; that duplication was set aside for this comparison but may be worth its own review.
+- Check why Felix Oduya has two payments this cycle; that duplication was set aside for this comparison but may be worth its own review.
 
 ## What This Comparison Cannot Tell You
 
-It cannot confirm whether Jamie Whitcombe and J. Whitcombe are the same person, why Tomasz Kowalski's status disagrees between the two records, why Marcus Oduya was charged twice, or whether Helena Byrne is a genuinely new member rather than a data-entry issue elsewhere. The three-week gap between when each record was captured means some of these differences may simply reflect real change over that time, not an error in either record.
+It cannot confirm whether Jamie Whitcombe and J. Whitcombe are the same person, why Tomasz Kowalski's status disagrees between the two records, why Felix Oduya was charged twice, or whether Helena Byrne is a genuinely new member rather than a data-entry issue elsewhere. The three-week gap between when each record was captured means some of these differences may simply reflect real change over that time, not an error in either record.

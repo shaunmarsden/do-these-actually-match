@@ -8,5 +8,5 @@ Kept by the club secretary, last updated three weeks ago.
 | --- | --- | --- |
 | Beatrix Winslow | beatrix.w@fernmail.example | Active |
 | J. Whitcombe | j.whitcombe@fernmail.example | Active |
-| Marcus Oduya | marcus.oduya@fernmail.example | Active |
+| Felix Oduya | felix.oduya@fernmail.example | Active |
 | Tomasz Kowalski | tomasz.k@fernmail.example | Lapsed |
