@@ -8,7 +8,7 @@ The duplicate-line trap, Felix Oduya's two payments. The output saw both payment
 
 The name trap, J. Whitcombe and Jamie Whitcombe. The names look like a match, but the emails don't back it up. The output refused to decide either way. It labelled the pair "could not confidently match" rather than guessing yes or no to make the numbers tidier.
 
-The status conflict, Tomasz Kowalski. He's lapsed on one side and has a live payment on the other. The output reported this as a real disagreement and didn't guess which record is right.
+The status conflict, Fergus Penrose. He's lapsed on one side and has a live payment on the other. The output reported this as a real disagreement and didn't guess which record is right.
 
 The capture-gap trap. The two records were taken three weeks apart. The output says so plainly in its opening section and comes back to it when discussing Helena Byrne, rather than mentioning it once and then ignoring it.
 
@@ -22,7 +22,7 @@ Every suggested follow-up names a specific action and a specific person to check
 
 ## What Needed Checking
 
-The output had three small slips, since corrected. Its matching notes named the wrong pair, "Felix Oduya and Jamie Whitcombe" where it should have read "J. Whitcombe and Jamie Whitcombe", which the detailed section got right. It said Tomasz made "a payment made today", but the export gives only an export date of today, not a payment date. And it said the two Whitcombe emails "share no common part", when both are at fernmail.example and only the local part differs. None of the three changed a classification.
+The output had three small slips, since corrected. Its matching notes named the wrong pair, "Felix Oduya and Jamie Whitcombe" where it should have read "J. Whitcombe and Jamie Whitcombe", which the detailed section got right. It said Fergus made "a payment made today", but the export gives only an export date of today, not a payment date. And it said the two Whitcombe emails "share no common part", when both are at fernmail.example and only the local part differs. None of the three changed a classification.
 
 This evidence alone can't settle whether J. Whitcombe and Jamie Whitcombe are the same person. A real version of this comparison would need to ask the club secretary. The output leaves that as a step for a person, which is right.
 
